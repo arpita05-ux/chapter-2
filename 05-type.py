@@ -12,3 +12,9 @@ c = "31"
 t = type(c) # class <str>
 
 print(t)
+
+# now,
+a = "31.2"
+b = float(a) # a but type should be float
+t = type(b)
+print(t)
